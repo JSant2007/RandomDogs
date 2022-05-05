@@ -1,0 +1,53 @@
+header {
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 120px;
+    -webkit-text-stroke: 3px rgb(243, 235, 150);
+
+    padding: 5px 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0;
+    backdrop-filter: blur(15px);/*no hace efecto borroso*/
+    opacity: 0.90;
+}
+
+body {
+    background-image: url("https://us.123rf.com/450wm/kannaa123rf/kannaa123rf1602/kannaa123rf160200253/52613752-vector-sin-patr%C3%B3n-con-el-gato-o-el-perro-huellas-puede-ser-utilizado-para-el-papel-pintado-de-fondo-.jpg?ver=6");
+}
+
+button {
+    display: block;
+    margin-top: 160px; 
+
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+   }
+   
+   button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+   }
+   
+   button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+   }
+
+.card {
+ width: 40%;
+ height: 400px;
+ border-radius: 30px;
+ background: #e0e0e0;
+ box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
